@@ -1,0 +1,1 @@
+ifconfig en1 | grep "ether" | grep -E "([[:alnum]]{2}\:){5}[[:alnum]]{2}" -o
