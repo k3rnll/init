@@ -1,1 +1,1 @@
-ifconfig | grep -E "^[[:alpha]]" | grep -E ".*:" -o | grep -E ".*[[:digit:]]" -o
+ifconfig -l
